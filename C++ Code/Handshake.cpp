@@ -6,8 +6,12 @@ int handShake(int n){
 }
 
 int main(){
-	int n;
-	cin>>n;
-	cout<<handShake(n);
+	int t;
+	cin>>t;
+	while(t--){
+		int n;
+		cin>>n;
+		cout<<handShake(n)<<endl;
+	}
 	return 0;
 }
